@@ -1,0 +1,22 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  user-select: none;
+  cursor: default;
+  user-select: none;
+}
+
+.dup {
+  height: 70px;
+  width: 100%;
+}
+
+.sale-img1 {
+  width: 100%;
+}
+
+.joinimg {
+  width: calc(100% - 50%);
+}

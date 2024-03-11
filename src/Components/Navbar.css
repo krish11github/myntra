@@ -1,0 +1,328 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    -webkit-user-drag: none;
+    
+}
+
+.myntra_logo {
+    height: 31px;
+    width: 47px;
+    margin-top: 19px;
+    margin-left: 60px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.200);
+}
+
+.menu {
+    display: flex;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.sb {
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.search_bar {
+    display: flex;
+    width: 500px;
+    height: 38px;
+    border-radius: 4px;
+    border: 1px solid #f6f6f6;
+    background-color: #f6f6f6;
+
+    & .search_logo {
+        position: absolute;
+        padding: 9px;
+        font-size: 20px;
+    }
+
+    & .inputtxt {
+        padding-block: 10px;
+        padding-inline: 40px;
+        width: 500px;
+        height: 36px;
+        background-color: #f6f6f6;
+        border: 1px solid #f6f6f6;
+        font-size: 13px;
+        color: rgb(117, 117, 117);
+        outline: none;
+    }
+
+}
+
+.inputtxt::placeholder {
+    color: #888888;
+}
+
+.inputtxt:focus {
+    background-color: white;
+}
+
+.text {
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 29px;
+    padding-inline: 19px;
+    height: 70px;
+
+    & a {
+        color: #282c3f;
+    }
+
+}
+
+.last {
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 50px;
+
+    & .l>.l1 {
+        margin-left: 6px;
+    }
+
+    & .l>.l2 {
+        margin-left: 9px;
+    }
+
+    & .l>.l3 {
+        margin-left: -1px;
+    }
+
+    & h5 {
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+}
+
+li {
+    list-style: none;
+    margin-block: 5px;
+    font-size: small;
+    font-weight: 400;
+}
+
+.mega_menu {
+    justify-content: space-evenly;
+    top: 70px;
+    left: 120px;
+    display: none;
+    position: absolute;
+    height: fit-content;
+    width: 1100px;
+    animation: mega_menu .7s forwards;
+    z-index: 1;
+
+}
+
+@keyframes mega_menu {
+    0% {
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    100% {
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+.text:hover .mega_menu {
+    display: flex;
+    z-index: 1;
+}
+
+.a {
+    margin-top: 10px;
+}
+
+.redf {
+    animation: aa1 .7s forwards;
+}
+
+.aa1 {
+    margin-block: 20px;
+    animation: aa1 .7s forwards;
+}
+
+@keyframes aa1 {
+    0% {
+        color: #ffffff00;
+    }
+}
+
+.t1 {
+    margin-left: 58px;
+}
+
+.t1:hover {
+    border-bottom: 3px solid #ef697b;
+}
+
+.t2:hover {
+    border-bottom: 3px solid #fb58c2;
+}
+
+.t3:hover {
+    border-bottom: 3px solid #f36e17;
+}
+
+.t4:hover {
+    border-bottom: 3px solid #f5cb36;
+}
+
+.t5:hover {
+    border-bottom: 3px solid #1bbab5;
+}
+
+.t6:hover {
+    border-bottom: 3px solid #ff3f6c;
+}
+
+.t1>.mega_menu>.a>.aa1>h3 {
+    color: #ef697b;
+    transition: 10s;
+}
+
+.t2>.mega_menu>.a>.aa1>h3 {
+    color: #fb58c2;
+}
+
+.t3>.mega_menu>.a>.aa1>h3 {
+    color: #f36e17;
+}
+
+.t4>.mega_menu>.a>.aa1>h3 {
+    color: #f5cb36;
+}
+
+.t5>.mega_menu>.a>.aa1>h3 {
+    color: #1bbab5;
+}
+
+.mega_menu_studio {
+    left: 385px;
+    display: none;
+    position: absolute;
+    top: 70px;
+    height: fit-content;
+    width: fit-content;
+    background-color: #ffffff;
+    animation: mega_menu .7s forwards;
+
+
+    & .first {
+        margin-top: 30px;
+        height: 32px;
+        width: 110px;
+    }
+
+    & .second {
+        margin: 15px;
+        height: 275px;
+        width: 500px;
+    }
+
+    & .third {
+        height: 45px;
+        width: 180px;
+        border: 1px solid rgb(187, 187, 187);
+        background-color: white;
+        border-radius: 3px;
+        margin-bottom: 15px;
+        cursor: pointer;
+    }
+
+    & .in_studio {
+        row-gap: 6px;
+        display: grid;
+        justify-items: center;
+        animation: in_studio .7s forwards;
+    }
+
+}
+
+@keyframes in_studio {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.t6:hover .mega_menu_studio {
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+}
+
+.bn {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 200vh;
+    background-color: rgba(0, 0, 0, 0.300);
+}
+
+@media only screen and (max-width: 1400px) {
+
+    .myntra_logo {
+        margin-left: 20px;
+    }
+
+    .last {
+        margin-right: 0px;
+    }
+
+    .search_bar {
+        width: 300px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1120px) {
+
+    .myntra_logo {
+        margin-left: 20px;
+    }
+
+    /* .last {
+        margin-right: 0px;
+    } */
+
+    .search_bar {
+        width: 300px;
+    }
+
+    .t1 {
+        margin-left: 20px;
+    }
+
+
+}
