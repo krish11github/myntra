@@ -11,6 +11,7 @@ function App() {
       <img class="sale-img1" src={require('./image/sale.png')}></img>
       <img class="joinimg" src={require('./image/forwomen.jpg')}></img>
       <img class="joinimg" src={require('./image/formen.jpg')}></img>
+      <h1>hello</h1>
       <Pleaselogin/>
       
 
