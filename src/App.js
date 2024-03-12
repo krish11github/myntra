@@ -13,6 +13,7 @@ function App() {
       <img class="joinimg" src={require('./image/formen.jpg')}></img>
       <h1>hello</h1>
       <Pleaselogin/>
+      <Pleaselogin/>
       
 
     </div>
