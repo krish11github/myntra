@@ -1,12 +1,13 @@
+import { Link } from 'react-router-dom/cjs/react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
 
-    function over(){
+    function over() {
         var bn = document.getElementsByClassName("bn")[0];
         bn.style.display = "block";
     }
-    function hide(){
+    function hide() {
         var bn = document.getElementsByClassName("bn")[0];
         bn.style.display = "none";
     }
@@ -18,7 +19,7 @@ function Navbar() {
             <div className="bn"></div>
             <div class="main">
                 <div class="menu">
-                    <a href="#"><img class="myntra_logo" src={require('./image/myntra_logo.png')} alt=""></img></a>
+                    <Link to="/home"><img class="myntra_logo" src={require('./image/myntra_logo.png')} alt=""></img></Link>
                     <div class="text t1" onMouseEnter={over} onMouseLeave={hide}><a href="#">MEN</a>
                         <div class="mega_menu">
 
@@ -703,28 +704,30 @@ function Navbar() {
                 </div>
 
                 <div class="last">
-
-                    <div class="l">
-                        <span class="l1 material-symbols-outlined">
-                            person
-                        </span>
-                        <h5>Profile</h5>
-                    </div>
-
-                    <div class="l">
-                        <span class="l2 material-symbols-outlined">
-                            favorite
-                        </span>
-                        <h5>Wishlist</h5>
-                    </div>
-
-                    <div class="l">
-                        <span class="l3 material-symbols-outlined">
-                            shopping_bag
-                        </span>
-                        <h5>Bag</h5>
-                    </div>
-
+                    <Link to='/login'>
+                        <div class="l">
+                            <span class="l1 material-symbols-outlined">
+                                person
+                            </span>
+                            <h5>Profile</h5>
+                        </div>
+                    </Link>
+                    <Link to='/login'>
+                        <div class="l">
+                            <span class="l2 material-symbols-outlined">
+                                favorite
+                            </span>
+                            <h5>Wishlist</h5>
+                        </div>
+                    </Link>
+                    <Link to='/login'>
+                        <div class="l">
+                            <span class="l3 material-symbols-outlined">
+                                shopping_bag
+                            </span>
+                            <h5>Bag</h5>
+                        </div>
+                    </Link>
                 </div>
             </div>
 

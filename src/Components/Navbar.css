@@ -100,6 +100,10 @@ a {
     justify-content: space-evenly;
     margin-right: 50px;
 
+    & .l{
+        color: black;
+    }
+
     & .l>.l1 {
         margin-left: 6px;
     }
@@ -285,7 +289,7 @@ li {
     display: none;
     position: absolute;
     width: 100%;
-    height: 200vh;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.300);
 }
 
@@ -323,6 +327,5 @@ li {
     .t1 {
         margin-left: 20px;
     }
-
 
 }
