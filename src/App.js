@@ -16,23 +16,11 @@ function App() {
         <Route exact path="/">
           <Homepage />
         </Route>
-        <Route path="/home">
-          <Homepage />
-        </Route>
         <Route path="/login">
           <Pleaselogin />
         </Route>
       </Switch>
     </Router>
-
-    // <div>
-    //   <Navbar/>
-    //   <div class="dup"></div>
-    //   <img class="sale-img1" src={require('./image/sale.png')}></img>
-    //   <img class="joinimg" src={require('./image/forwomen.jpg')}></img>
-    //   <img class="joinimg" src={require('./image/formen.jpg')}></img>
-    //   <Pleaselogin/>
-    // </div>
   );
 }
 

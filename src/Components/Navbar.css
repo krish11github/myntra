@@ -11,6 +11,7 @@
     width: 47px;
     margin-top: 19px;
     margin-left: 60px;
+    cursor: pointer;
 }
 
 .main {
@@ -106,20 +107,24 @@ a {
 
     & .l>.l1 {
         margin-left: 6px;
+        cursor: pointer;
     }
 
     & .l>.l2 {
         margin-left: 9px;
+        cursor: pointer;
     }
 
     & .l>.l3 {
         margin-left: -1px;
+        cursor: pointer;
     }
 
     & h5 {
         text-decoration: none;
         font-size: 12px;
         font-weight: 500;
+        cursor: pointer;
     }
 
 }

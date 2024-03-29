@@ -19,7 +19,7 @@ function Navbar() {
             <div className="bn"></div>
             <div class="main">
                 <div class="menu">
-                    <Link to="/home"><img class="myntra_logo" src={require('./image/myntra_logo.png')} alt=""></img></Link>
+                    <Link to="/"><img class="myntra_logo" src={require('./image/myntra_logo.png')} alt=""></img></Link>
                     <div class="text t1" onMouseEnter={over} onMouseLeave={hide}><a href="#">MEN</a>
                         <div class="mega_menu">
 
